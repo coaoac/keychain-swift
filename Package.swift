@@ -1,14 +1,14 @@
-// swift-tools-version:4.2
+// swift-tools-version:5.1
 import PackageDescription
 
 let package = Package(
-    name: "KeychainSwift",
+    name: "Keychain",
     products: [
-        .library(name: "KeychainSwift", targets: ["KeychainSwift"]),
+        .library(name: "Keychain", targets: ["Keychain"]),
     ],
     dependencies: [
     ],
     targets: [
-        .target(name: "KeychainSwift", dependencies: [], path: "Sources"),
+        .target(name: "Keychain", dependencies: [], path: "Sources"),
     ]
 )
